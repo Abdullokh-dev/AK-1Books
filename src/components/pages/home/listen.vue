@@ -585,7 +585,7 @@
 </template>
 <script>
 import RangeSlider from "vue-range-slider";
-import "@/assets/range-slider-audio.css";
+import "./range-slider-audio.css";
 
 export default {
     name: "listen",

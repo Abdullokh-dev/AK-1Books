@@ -16,8 +16,7 @@
   width: 100%;
 }
 
-.range-slider-rail,
-.range-slider-fill {
+.range-slider-rail, .range-slider-fill {
   display: block;
   position: absolute;
   top: 50%;
@@ -25,8 +24,8 @@
   height: 3px;
   border-radius: 2px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .range-slider-rail {
@@ -38,8 +37,8 @@
   background-color: #2C9AFF;
 }
 .range-slider-knob:hover {
-  width: 17px;
-  height: 17px;
+  width: 27px;
+  height: 27px;
   border: 3px solid #C3E2FF;
   cursor: pointer;
 }
@@ -49,14 +48,15 @@
   top: 50%;
   left: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 6px;
-  width: 6px;
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border: 3px solid #C3E2FF;
   border-radius: 50%;
   background-color: #2C9AFF;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   cursor: pointer;
 }
 

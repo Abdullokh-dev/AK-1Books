@@ -58,7 +58,7 @@
                 <div class="col book-width p-0">
                     <img class="images-book" src="https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg" alt="rich dad poor dad" />
 
-                    <router-link to="/dark-mode/1">
+                    <router-link to="/read/1">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="read-logo">
                             <rect width="16" height="16" rx="8" fill="white"/>
                             <path
@@ -313,7 +313,7 @@ export default {
         },
 
         read() {
-            this.$router.push('/dark-mode/1')
+            this.$router.push('/read/1')
         },
 
         disable() {

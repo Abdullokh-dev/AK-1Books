@@ -132,6 +132,10 @@ const routes = [
         path: '/finished-book',
         component: () => import('../components/pages/library/finished-book')
     },
+    {
+        path: '/read/:id',
+        component: () => import('../components/pages/home/read.vue')
+    }
 ]
 
 export default new VueRouter({

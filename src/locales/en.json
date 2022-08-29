@@ -1,0 +1,214 @@
+{
+  "about": {
+    "application": "About",
+    "subscription": "About subscription",
+    "welcome": "Welcome to the About page!"
+  },
+  "account": "Account",
+  "addComment": "Add comment",
+  "commentChange": "Comment changed",
+  "commentSent": "Comment sent",
+  "bookRecommendations": "Book Recommendations",
+  "brightness": "Brightness",
+  "buySubscription": "Buy subscription",
+  "dark": "Dark",
+  "distribution": "Distribution by e-mail",
+  "free14day": "14 days free, then $99/month.",
+  "free14dayHalf": "Subscription can be canceled at any time",
+  "fullScreen": "Full screen",
+  "fontSize": "Text font",
+  "game": "Games, Contests, Tests",
+  "home": {
+    "search": "Search",
+    "categories": "Categories",
+    "moments": "Moments",
+    "recommend": "Recommend"
+  },
+  "language": {
+    "en": "English",
+    "language": "Language",
+    "ru": "Русский",
+    "save": "Save",
+    "uz": "O'zbekcha"
+  },
+  "light": "Light",
+  "login": {
+    "about1book": "Platform for authors and performers to publish audiobooks, stories and performances recorded by both amateurs and professionals.",
+    "agreement": {
+      "first": "By registering, you agree to the ",
+      "fourth": "privacy policy.",
+      "second": "terms of use",
+      "third": " and "
+    },
+    "buyAgreement": {
+      "first": "By subscribing, you agree to the "
+
+    },
+    "changeHabit": "We are slaves of our habits. Change your habits and your life will change.",
+    "in1books": "Reading and listening on 1books - is fun and easy!",
+    "makeHabit": "Get in the habit of reading and listening",
+    "selectLanguage": {
+      "for": "to continue in Uzbek language!",
+      "lanLogo": "UZ",
+      "press": "Press"
+    },
+    "skip": "Skip",
+    "weAreHere": "We are here for you to be with us",
+    "withoutNet": "Access without internet",
+    "whereRead": "Listen on the subway, on the plane or on the go, anywhere, anytime."
+  },
+  "main": {
+    "welcome": "Hello from {company}!",
+    "new_message": "no messages | one message | {count} messages"
+  },
+  "open": "Open",
+  "pageAnimation": "Paging animation",
+  "payOneYear": "1 year 99 USSD",
+  "promotion": "Promotions and discounts",
+  "price": {
+    "currency": "sum",
+    "price": "Price"
+  },
+  "premium": {
+    "premium": "PREMIUM",
+    "one": "All books",
+    "two": "All audiobooks, podcasts and articles",
+    "three": "Synchronization of text and audio",
+    "four": "Personal recommendations"
+  },
+  "systemic": "Systemic",
+  "time": {
+    "h": "h",
+    "m": "m",
+    "mb": "mb"
+  },
+  "alertSuccess": "Message sent successfully!",
+  "allSave": "All rights reserved.",
+  "aboutSubs": "About subscription",
+  "author": "Author",
+  "addAShelf": "Add to shelf",
+  "book": "book",
+  "calendar": "dd / mm / yyyy",
+  "change": "Change",
+  "changeTarget": "Change target",
+  "copyrightHolder": "Copyright holder",
+  "create": "Create",
+  "library": {
+    "library": "Library",
+    "saved": "Saved",
+    "readingNow": "Reading now",
+    "finished": "Finished",
+    "offline": "Offline",
+    "myQuotes": "My quotes",
+    "myVotes": "My votes",
+    "myVote": "My vote:"
+  },
+  "shelf": {
+    "createANewShelf": "Create a new shelf",
+    "youDoNotHaveSingleShelf": "You don't have a single shelf, and most time to create the first! ",
+    "myShelves": "My shelves",
+    "shelfName": "Shelf name",
+    "describeShelf": "Describe what this shelf is about",
+    "numberBooks": "book"
+  },
+  "statisticsPage": {
+    "statistics": "Statistics",
+    "duringTheWeek": "during the week",
+    "duringTheMonth": "during the month",
+    "duringTheYear": "during the year",
+    "booksReadThisYear": "Books read this year",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "night": "Night",
+    "yourTarget": "Your target",
+    "readBooksInDays": "Read {howBooks} books in {howDays} days",
+    "profile": "Profile",
+    "targetSet": "Target is set successfully",
+    "targetSetError": "An error has occurred. Please try again later",
+    "finishedBooks": "You have no finished books read this year"
+  },
+  "days": "days",
+  "delete": "Delete",
+  "deleted": "Successfully deleted",
+  "deleteFromMyBook": "Remove from my books",
+  "device": {
+    "myDevice": "My Devices",
+    "thisDevice": "This device"
+  },
+  "download": "Download",
+  "female": "Female",
+  "firstName": "First Name",
+  "IWillRead": "I will read",
+  "inOneDay": "In one day",
+  "install": "Install",
+  "lastName": "Last Name",
+  "listen": "listen",
+  "listenFaster": "Listen faster",
+  "logIn": "Log in",
+  "male": "Male",
+  "message": "Message",
+  "minutes": "minutes",
+  "next": "Next",
+  "notification": "Notification",
+  "password": "Password",
+  "rateTheBook": "Rate the book",
+  "reader": "Reader",
+  "reading": "Reading",
+  "reviews": "Reviews",
+  "requireMessage": "Пожалуйста, заполните все поля",
+  "save": "Save",
+  "search": {
+    "audiobooks": "Audiobooks",
+    "books": "Books",
+    "podcasts": "Podcasts",
+    "recentRequest": "Recent request",
+    "recommendationsForToday": "Recommendations for today",
+    "readAndListen": "Read and listen"
+  },
+  "send": "Send",
+  "security": {
+    "againSendCode": "Send the code again ?",
+    "badFormatPhoneNumber": "The number is entered in the wrong format",
+    "buttonResetPassword": "Reset Password",
+    "codeIsExpired": "The verification code has expired",
+    "enterNewPasswordText": "Enter a new password to log in",
+    "newPassword": "New password",
+    "oldPassword": "Old password",
+    "passwordWrong": "Password is wrong",
+    "passwordsNotEquals": "Passwords not equals",
+    "phoneNumberUsed": "This number is already in use",
+    "forgotPasswordInfo": "If you forgot your password, click",
+    "pressReset": "reset password",
+    "repeatNewPassword": "Repeat new password",
+    "security": "Security",
+    "sendCodeToPhone": "The verification code was sent to your number in the form of an SMS",
+    "successChangePassword": "Password changed successfully"
+  },
+  "selectedText": {
+    "copy": "Copy",
+    "note": "Note",
+    "quote": "Quote",
+    "share": "Share"
+  },
+  "setting": "Setting",
+  "settings": "Settings",
+  "showAll": "Show all",
+  "showLess": "Show less",
+  "similarBooks": "Similar books",
+  "subscribeAndRead": "Subscribe and read",
+  "subscribeAndUpdate": "Subscribe and update",
+  "textArea": {
+    "frequentlyAskedQuestions": "Frequently Asked Questions",
+    "questionOfSupport": "Question of support",
+    "supportService": "Support Service",
+    "subjectOfTheAppeal": "Subject of the appeal",
+    "textAreaError": "Please fill in the fields"
+  },
+  "theme": "Theme",
+  "topReaders": "Top readers",
+  "total": "Total",
+  "verificationCode": "Verification code",
+  "while": "While",
+  "yourTarget": "YourTarget"
+}

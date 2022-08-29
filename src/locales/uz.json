@@ -1,0 +1,215 @@
+{
+  "about": {
+    "application": "Dastur haqida",
+    "subscription": "Obuna haqida",
+    "welcome": "Добро пожаловать на страницу О нас!"
+  },
+  "account": "Shaxsiy sozlamalar",
+  "addComment": "Izoh kiriting",
+  "commentChange": "Izoh o'zgartirildi",
+  "commentSent": "Izoh yuborildi",
+  "bookRecommendations": "Kitob bo'yicha tavsiyalar",
+  "brightness": "Yorqinlik",
+  "buySubscription": "Obuna sotib olish",
+  "dark": "Qorong'u",
+  "distribution": "Elektron pochta orqali tarqatish",
+  "free14day": "14 kun bepul, keyin oyiga 99$.",
+  "free14dayHalf": "Obuna istalgan vaqtda bekor qilinishi mumkin",
+  "fullScreen": "To'liq ekran",
+  "fontSize": "Matn hajmi",
+  "game": "O'yinlar, Tanlovlar, Testlar",
+  "home": {
+    "search": "Izlash",
+    "categories": "Kategoriyalar",
+    "moments": "Lahzalar",
+    "recommend": "Tavsiya qilamiz"
+  },
+  "language": {
+    "language": "Til",
+    "save": "Saqlash",
+    "en": "English",
+    "ru": "Русский",
+    "uz": "O'zbekcha"
+  },
+  "light": "Yorqin",
+  "login": {
+    "about1book": "mualliflar va ijrochilar uchun ham havaskorlar, ham professionallar tomonidan yozilgan audiokitoblar, hikoyalar va chiqishlarni nashr etish uchun platforma.",
+    "agreement": {
+      "first": "Ro'yxatdan o'tish orqali siz ",
+      "fourth": "maxfiylik siyosatiga rozilik bildirasiz.",
+      "second": " foydalanish shartlari ",
+      "third": "va "
+    },
+    "changeHabit": "Biz odatlarimizning qulimiz. Odatlaringizni o'zgartiring va hayotingiz o'zgaradi.",
+    "buyAgreement": {
+      "first": "Obuna bo'lish orqali siz "
+
+    },
+    "in1books": "1books orqali O'qish va Eshitish - maroqli va oson!",
+    "makeHabit": "O'qish va tinglashni odat qiling",
+    "selectLanguage": {
+      "for": "tugmasini bosing!",
+      "lanLogo": "RU",
+      "press": "Rus tilida davom etish uchun "
+    },
+    "skip": "Oʻtkazib yuborish",
+    "weAreHere": "Biz siz bilan birga bo'lishingiz uchun shu yerdamiz",
+    "withoutNet": "Internetsiz kirish",
+    "whereRead": "Metroda, samolyotda yoki yo'lda, istalgan joyda, istalgan vaqtda tinglang."
+  },
+  "main": {
+    "welcome": "Вас приветствует {company}!",
+    "new_message": "нет сообщений | {count} сообщение | {count} сообщения | {count} сообщений"
+  },
+  "open": "Ochish",
+  "payOneYear": "1 yil 99 USSD",
+  "pageAnimation": "Varoq animatsiyasi",
+  "promotion": "Aktsiyalar va chegirmalar",
+  "price": {
+    "currency": "so'm",
+    "price": "Narxi"
+  },
+  "premium": {
+    "premium": "PREMIUM",
+    "one": "Barcha kitoblar",
+    "two": "Barcha audiokitoblar, podkastlar va maqolalar",
+    "three": "Matn va audio sinxronizatsiya",
+    "four": "Shaxsiy tavsiyalar"
+  },
+  "systemic": "Tizim",
+  "time": {
+    "h": "s",
+    "m": "m",
+    "mb": "mb"
+  },
+  "alertSuccess": "Xabar muvaffaqiyatli yuborildi!",
+  "allSave": "Barcha huquqlar himoyalangan.",
+  "aboutSubs": "Obuna haqida",
+  "addAShelf": "Javonga qo'shish",
+  "author": "Muallif",
+  "book": "kitob",
+  "calendar": "dd / mm / yyyy",
+  "change": "O'zgartirish",
+  "changeTarget": "Maqsadni o'zgartirish",
+  "copyrightHolder": "Mualliflik huquqi egasi",
+  "create": "Yaratish",
+  "library": {
+    "library": "Kutubxona",
+    "saved": "Saqlanganlar",
+    "readingNow": "Hozirda o'qiyapman",
+    "finished": "O'qilganlar",
+    "offline": "Oflayn",
+    "myQuotes": "Mening iqtiboslarim",
+    "myVotes": "Mening ovozlarim",
+    "myVote": "Mening ovozim:"
+  },
+  "shelf": {
+    "createANewShelf": "Yangi javon yaratish",
+    "youDoNotHaveSingleShelf": "Sizda bitta ham javon yo'q va birinchisini yaratish vaqti keldi! ",
+    "myShelves": "Mening javonlarim",
+    "shelfName": "Javon nomi",
+    "describeShelf": "Javon nima haqida ekanligini tasvirlang",
+    "numberBooks": "ta kitob"
+  },
+  "statisticsPage": {
+    "statistics": "Statistika",
+    "duringTheWeek": "hafta davomida",
+    "duringTheMonth": "oy davomida",
+    "duringTheYear": "yil davomida",
+    "booksReadThisYear": "Ushbu yilda o'qilgan kitoblar",
+    "morning": "Ertalab",
+    "afternoon": "Kunduz",
+    "evening": "Kech",
+    "night": "Tun",
+    "yourTarget": "Sizning maqsadingiz",
+    "readBooksInDays": "{howDays} kunda {howBooks} ta kitob o'qish",
+    "profile": "Profil",
+    "targetSet": "Maqsad muvaffaqiyatli o'rnatildi",
+    "targetSetError": "Xatolik yuz berdi. Iltimos keyinroq qayta urinib ko'ring",
+    "finishedBooks": "Sizda ushbu yilda o'qilgan kitoblar mavjud emas"
+  },
+  "days": "kun",
+  "delete": "Oʻchirish",
+  "deleted": "Muvaffaqiyatli oʻchirildi",
+  "deleteFromMyBook": "Kitoblarimdan olib tashlash",
+  "device": {
+    "myDevice": "Mening qurilmalarim",
+    "thisDevice": "Ushbu qurilma"
+  },
+  "download": "Yuklab olish",
+  "female": "Ayol",
+  "firstName": "Ism",
+  "IWillRead": "Men o'qiyman",
+  "inOneDay": "Bir kunda",
+  "install": "O'rnatish",
+  "lastName": "Familiya",
+  "listen": "Tinglash",
+  "listenFaster": "Tezroq eshitish",
+  "logIn": "Kirish",
+  "male": "Erkak",
+  "message": "Xabar",
+  "minutes": "minut",
+  "next": "Keyingi",
+  "notification": "Bildirishnoma",
+  "password": "Parol",
+  "rateTheBook": "Kitobga baho bering",
+  "reader": "O'quvchi",
+  "reading": "O'qish",
+  "reviews": "Sharhlar",
+  "requireMessage": "Iltimos, hamma maydonlarni to'ldiring!",
+  "save": "Saqlash",
+  "search": {
+    "audiobooks": "Audiokitoblar",
+    "books": "Kitoblar",
+    "podcasts": "Podkastlar",
+    "recentRequest": "Oxirgi so'rovlar",
+    "recommendationsForToday": "Bugungi kunda tavsiyalar",
+    "readAndListen": "O'qing va tinglang"
+  },
+  "send": "Jo'natish",
+  "security": {
+    "againSendCode": "Kodni yana bir bor yuborish kerakmi ?",
+    "badFormatPhoneNumber": "Raqam noto'g'ri formatda kiritilgan",
+    "buttonResetPassword": "Parolni tiklash",
+    "codeIsExpired": "Tekshirish kodining muddati tugadi",
+    "enterNewPasswordText": "Sistemaga kirish uchun yangi parol kiriting",
+    "forgotPasswordInfo" : "Agar parolni unutgan bo'lsangiz,",
+    "newPassword": "Yangi parol",
+    "oldPassword": "Eski parol",
+    "passwordWrong": "Parol noto'gri !",
+    "passwordsNotEquals": "Parollar teng emas",
+    "phoneNumberUsed": "Bu raqam allaqachon ishlatilgan",
+    "pressReset": "parolni tiklash tugmasini bosing",
+    "repeatNewPassword": "Yangi parolni takrorlang",
+    "security": "Xavfsizlik",
+    "sendCodeToPhone": "Tekshirish kodi sizning raqamingizga SMS shaklida yuborildi",
+    "successChangePassword": "Parol muvoffaqiyatli almashtirildi"
+
+  },
+  "selectedText": {
+    "copy": "Nusxa olish",
+    "note": "Eslatma",
+    "quote": "Iqtibos",
+    "share": "Bo'lishish"
+  },
+  "setting": "Sozlamalar",
+  "settings": "Sozlamalar",
+  "showAll": "Hammasini ko'rsatish",
+  "showLess": "Kamroq ko'rsatish",
+  "similarBooks": "Shunga o'xshash kitoblar",
+  "subscribeAndRead": "Obuna bo'ling va o'qing",
+  "subscribeAndUpdate": "Obuna bo'lish va yangilash",
+  "textArea": {
+    "frequentlyAskedQuestions": "Tez-tez so'raladigan savollar",
+    "questionOfSupport": "Qo'llab-quvvatlash masalasi",
+    "supportService": "Yordam xizmati",
+    "subjectOfTheAppeal": "Murojaat mavzusi",
+    "textAreaError": "Iltimos, maydonlarni to'ldiring"
+  },
+  "theme": "Mavzu",
+  "topReaders": "Top o'quvchilar",
+  "total": "Jami",
+  "verificationCode": "Tasdiqlash kodi",
+  "while": "Davomida",
+  "yourTarget": "Sizning maqsadingiz"
+}

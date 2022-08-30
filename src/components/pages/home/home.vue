@@ -40,7 +40,7 @@
                         >
                             <slide v-for="banner in 6" :key="banner.index" class="pt-4">
                                 <img class="slide-content"
-                                     src="https://cdn.thetealmango.com/wp-content/uploads/2021/07/dwaynejohnson.jpg"
+                                     src="https://aureatelabs.com/wp-content/uploads/Vue-JS-Developert-Job-Banner.jpg"
                                      @click="pushMyGithub"
                                 >
                             </slide>

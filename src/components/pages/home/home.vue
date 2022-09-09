@@ -25,7 +25,7 @@
                     <div class="col-12 pe-0 ps-0">
                         <div class="stories-container ps-3">
                             <figure v-for="profile in 20" :key="profile.index" class="profiles">
-                                <img :src="'https://picsum.photos/id/' + profile + 3 + '/740/740'" alt="" class="photo" @click="pushMyProfile"/>
+                                <img :src="'https://randomuser.me/api/portraits/men/' + profile + '.jpg'" alt="" class="photo" @click="pushMyProfile"/>
                                 <figcaption class="story-name">Abdullokh Dev</figcaption>
                             </figure>
                         </div>
@@ -40,7 +40,7 @@
                         >
                             <slide v-for="banner in 6" :key="banner.index" class="pt-4">
                                 <img class="slide-content"
-                                     src="https://aureatelabs.com/wp-content/uploads/Vue-JS-Developert-Job-Banner.jpg"
+                                     src="https://images.unsplash.com/photo-1662658825081-3287a5c25fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
                                      @click="pushMyGithub"
                                 >
                             </slide>
@@ -64,9 +64,9 @@
                 <div class="row">
                     <div class="col-12 ps-0 pe-0">
                         <div class="stories-container-2">
-                            <div v-for="n in 10" :key="n.index" class="profiles-2">
+                            <div v-for="n in 9" :key="n.index" class="profiles-2">
                                 <div class="photo-2">
-                                    <img :src="'https://picsum.photos/id/' + n + 4 + '/740/740'" alt="rasm"/>
+                                    <img :src="'https://randomuser.me/api/portraits/lego/' + n + '.jpg'" alt="rasm"/>
                                 </div>
                                 <div class="category-name"> category {{ n }} </div>
                             </div>
@@ -88,7 +88,7 @@
                 <!-- Books -->
                 <div v-for="book in 10" :key="book.index" class="row book-row">
                     <div class="col-2">
-                        <img :src="'https://picsum.photos/id/' + book + 4 + '/430/540'" alt="rasm" class="book-img">
+                        <img :src="'https://picsum.photos/id/' + book + 4 + '/215/270'" alt="rasm" class="book-img">
 
                         <svg class="head-phone" fill="none" height="10" viewBox="0 0 16 16" width="10"
                              xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
                 <!-- Audio Books -->
                 <div v-for="audioBook in 10" :key="audioBook.index" class="row book-row">
                     <div class="col-2">
-                        <img :src="'https://picsum.photos/id/' + audioBook + 4 + '/430/540'" alt="rasm"
+                        <img :src="'https://picsum.photos/id/' + audioBook + 4 + '/215/270'" alt="rasm"
                              class="book-img">
 
                         <svg class="head-phone" fill="none" height="10" viewBox="0 0 16 16"

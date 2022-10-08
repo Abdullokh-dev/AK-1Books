@@ -33,14 +33,14 @@
                 </div>
 
                 <!-- Banner -->
-                <div class="row mt-1 carousel-row" style="height: 48.4vw">
+                <div class="row mt-1 carousel-row" style="height: 164px">
                     <div class="col px-0 d-flex justify-content-center">
                         <hooper :auto-play="false" :centerMode="true" :infiniteScroll="true"
-                                :itemsToShow="1.2" :playSpeed="5000" :transition="1200" style="height: 48.2vw;"
+                                :itemsToShow="1.2" :playSpeed="5000" :transition="1200" style="height: 174px;"
                         >
-                            <slide v-for="banner in 6" :key="banner.index" class="pt-4">
+                            <slide v-for="banner in 6" :key="banner.index" class="pt-0">
                                 <img class="slide-content"
-                                     src="https://images.unsplash.com/photo-1662658825081-3287a5c25fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+                                     src="../../images/githubImage.png"
                                      @click="pushMyGithub"
                                 >
                             </slide>
@@ -465,7 +465,7 @@ input {
 
 .slide-content {
     width: 100% !important;
-    height: 29.6vw;
+    height: 130px;
     border-radius: 20px !important;
     padding: 10px 5px !important;
     display: flex;

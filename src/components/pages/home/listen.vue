@@ -18,9 +18,9 @@
                     </div>
 
                     <div class="col-7 d-flex justify-content-center">
-                        <img src="https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/6c/e6/77/6ce6776a-925f-8f7b-0a50-3dc268f47215/cover.jpg/1200x1200bf-60.jpg" width="27px" class="book-img"
+                        <img :src="this.musics[this.currentIndex].img" width="27px" class="book-img"
                              alt="">
-                        <span class="book-name2"> Mon ami (#Ratata) - Single  </span>
+                        <span class="book-name2"> {{ this.musics[this.currentIndex].name }}  </span>
                     </div>
 
                     <div class="col-1 d-flex justify-content-end">
@@ -68,7 +68,7 @@
 
                 <div class="row" v-if="!textRead">
                     <div class="col book-name d-flex justify-content-center">
-                        <span class="book-name-width">Mon ami (#Ratata) - Single</span>
+                        <span class="book-name-width"> {{ this.musics[this.currentIndex].name }} </span>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
         <div class="row d-flex" v-if="textRead">
             <div class="col d-flex justify-content-center"
                  :style="textRead ? 'padding-top: 115px' : 'padding-top: 190px'" :class="textRead ? 'book-text' : ''">
-                <img src="https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/6c/e6/77/6ce6776a-925f-8f7b-0a50-3dc268f47215/cover.jpg/1200x1200bf-60.jpg" style="border-radius: 10px" class="img"
+                <img :src="this.musics[this.currentIndex].img" style="border-radius: 10px" class="img"
                      v-if="!textRead" @click="textRead = !textRead" alt="">
 
                 <span class="book-text text-break"
@@ -98,7 +98,7 @@
         <div class="row" style="height: 100vh" v-else>
             <div class="col d-flex" style="justify-content: center;align-items: center;"
                  :style="textRead ? 'padding-top: 115px' : ''" :class="textRead ? 'book-text' : ''">
-                <img src="https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/6c/e6/77/6ce6776a-925f-8f7b-0a50-3dc268f47215/cover.jpg/1200x1200bf-60.jpg" style="border-radius: 10px" class="img"
+                <img :src="this.musics[this.currentIndex].img" style="border-radius: 10px" class="img"
                      v-if="!textRead" @click="textRead = !textRead" alt="">
             </div>
         </div>
@@ -576,7 +576,7 @@
             </div>
         </div>
 
-        <audio :loop="looping" ref="audio" src="https://muzes.net/uploads/music/2021/08/Andrei_Banuta_Mon_Ami_Ratata_HAYASA_G_Remix_4K.mp3"
+        <audio :loop="looping" ref="audio" :src="this.musics[this.currentIndex].src"
                v-on:loadeddata="load" v-on:pause="playing = false"
                v-on:play="playing = true"
                v-on:timeupdate="rangeUpdate" preload="auto" style="display: none;">
@@ -600,7 +600,6 @@ export default {
             looping: false,
             playing: false,
             audioSpeed: 1.0,
-            music: null,
             singing: false,
             sliderValue: 0,
             isSaved: false,
@@ -608,6 +607,21 @@ export default {
             textRead: false,
             textArray: [],
             isVisible: false,
+            currentIndex: 0,
+            musics: [
+              {
+                id: 1,
+                name: 'Mon ami (#Ratata) - Single',
+                src: 'https://muzes.net/uploads/music/2021/08/Andrei_Banuta_Mon_Ami_Ratata_HAYASA_G_Remix_4K.mp3',
+                img: 'https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/6c/e6/77/6ce6776a-925f-8f7b-0a50-3dc268f47215/cover.jpg/1200x1200bf-60.jpg'
+              },
+              {
+                id: 2,
+                name: 'Escapar (feat. Julia Antares)',
+                src: 'https://cdn1.shadam.net/uploads/files/2020-01/Danny-Shark-feat-Julia-Antares-Escapar-Romantic-Edition_1579527542.mp3',
+                img: 'https://m.media-amazon.com/images/I/51Kt-mAhDEL._UX716_FMwebp_QL85_.jpg'
+              }
+            ]
         }
     },
     methods: {
@@ -635,10 +649,16 @@ export default {
             return [pad(d.getDate()), pad(d.getMonth() + 1), d.getFullYear()].join('-')
         },
         nextSong() {
-            //code
+          if(this.currentSeconds > 2 && this.currentIndex !== 0) {
+            return this.currentIndex = 0
+          }
+          this.currentIndex = 1
         },
         previousSong() {
-            //code
+          this.currentIndex = 0
+          if(this.currentSeconds > 10 && this.currentIndex !== 1) {
+            this.$refs.audio.currentTime = 0
+          }
         },
         changeSpeed() {
             switch (this.audioSpeed) {
@@ -674,6 +694,9 @@ export default {
 
             return hhmmss.indexOf("00:") === 0 ? hhmmss.substr(3) : hhmmss;
         }
+    },
+    mounted() {
+
     },
     updated() {
         if (this.$refs.audio.currentTime === this.durationSeconds) {
@@ -1003,7 +1026,7 @@ input[type=range] {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #333333;
+    color: var(--color-text);
     margin-top: 16px;
     cursor: pointer;
 }

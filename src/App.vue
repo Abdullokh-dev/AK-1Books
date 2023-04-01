@@ -66,7 +66,7 @@ export default {
         if (localStorage.getItem('language')) {
             this.$i18n.locale = localStorage.getItem('language')
         } else {
-            this.$i18n.locale = 'en'
+            this.$i18n.locale = 'ru'
         }
     }
 }
